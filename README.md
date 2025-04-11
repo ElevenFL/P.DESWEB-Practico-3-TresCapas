@@ -3,19 +3,19 @@
 
 ## Identificación de capas
 
-1. **Capa de Presentación (presentation/product.controller.js):**
+1. **Capa de Presentación (presentacion/controlador.js):**
    - Maneja las solicitudes HTTP
    - Valida formatos de entrada
    - Gestiona respuestas y códigos de estado
    - Utiliza el servicio de negocio
 
-2. **Capa de Lógica de Negocio (business/product.service.js):**
+2. **Capa de Lógica de Negocio (Negocio/Servicio.js):**
    - Contiene las reglas de negocio
    - Valida datos requeridos
    - Transforma datos (ej: parseo de precios)
    - Coordina con el repositorio
 
-3. **Capa de Acceso a Datos (data/product.repository.js):**
+3. **Capa de Acceso a Datos (datos/repositorio.js):**
    - Gestiona el almacenamiento en memoria
    - Realiza operaciones CRUD básicas
    - Simula operaciones asíncronas
